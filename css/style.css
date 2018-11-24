@@ -1,0 +1,13 @@
+body {
+    font-size: 12px;
+}
+
+.cat-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cat-img {
+
+}
