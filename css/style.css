@@ -1,28 +1,77 @@
 body {
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-#click-counter-container {
-    width: 100%;
+#cat-arena {
+    width: 80%;
     display: flex;
     justify-content: center;
 }
 
-#click-count {
-    font-size: 2em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-
-#cat-image-container {
-    width: 100%;
+#cat-list-container {
+    width: 20%;
     display: flex;
     justify-content: center;
 }
 
-#cat-image {
+#cat-list {
+    display: block;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cat-list-item {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cat-list-item img {
+    width: 80%;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* #cat-image {
     border-radius: 50%;
     object-fit: cover;
     width: 400px;
     height: 400px;
+} */
+
+.cat-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.click-container {
+    display: block;
+    width: 100%;
+    font-size: 2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+
+.cat-image {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name-container {
+    display: block;
+    width: 100%;
+    font-size: 4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
 }
