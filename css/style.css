@@ -2,12 +2,24 @@ body {
     font-size: 12px;
 }
 
-.cat-image-container {
+#click-counter-container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.cat-img {
+#click-count {
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#cat-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cat-img {
 
 }
