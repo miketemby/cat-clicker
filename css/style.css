@@ -9,8 +9,8 @@ body {
 }
 
 #click-count {
-    font-size: 1.2em;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 
@@ -20,6 +20,9 @@ body {
     justify-content: center;
 }
 
-#cat-img {
-
+#cat-image {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
 }
