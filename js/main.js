@@ -111,3 +111,34 @@ function changeCats(cat) {
     catArena.innerHTML = '';
     catArena.appendChild(cat.html);
 }
+
+
+
+
+
+// TO DO
+// Build Model 
+// data: 
+//  Cat Class?
+//  Array of cats    
+
+
+// TO DO
+// Build Controller 
+// Methods:
+//  init() ... call model and create a list of cats
+//  constructHTML() ...build html from models cats array and pass it to view
+//  constructList() ...build
+
+
+// TO DO
+// Build List View 
+// Methods:
+//  render() ... clear html and fill html
+//  addEventListner() ... add the event listenr and call constructList
+
+
+// TO DO
+// Build Cat Area View 
+//  render() ... clear html and fill html
+//  addEventListner() ... and the event listenr and call constructHTML
